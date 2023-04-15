@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useRef } from "react";
-import LinkedIn from "../../../public/assets/icons/linkedin.svg";
+// import LinkedIn from "../../../public/assets/icons/linkedin.svg";
 import Google from "../../../public/assets/icons/google.svg";
 import ReactSelectField from "../common/reactSelectField";
 import { useForm } from "react-hook-form";
@@ -70,7 +70,7 @@ const RightSection = () => {
               onClick={() => signIn("linkedin")}
               className="bg-white flex gap-x-4 w-[437px] h-[74px] p-2 items-center border border-gray-100 rounded-md"
             >
-              <Image src={LinkedIn} alt="" style={{ width: "", height: "" }} />
+              <Image src={Google} alt="" style={{ width: "", height: "" }} />
               <p className="text-black text-[18px] tracking-[-0.54px]">Register with LinkedIn</p>
             </div>
             <div
