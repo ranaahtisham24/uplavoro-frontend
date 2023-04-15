@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import Facebook from "../../../../public/assets/icons/facebook.png";
 import Linkedin from "../../../../public/assets/icons/linkedin.png";
-import Instagram from "../../../../public/assets/icons/instagram.png";
+import Instagram from "../../../../public/assets/icons/instagram-icon.png";
 import { useForm } from "react-hook-form";
 import InputField from '@/components/common/inputField';
 
