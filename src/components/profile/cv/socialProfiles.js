@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Facebook from "../../../../public/assets/icons/facebook.png";
-import LinkedIn from "../../../../public/assets/icons/linkedIn.svg";
+import LinkedIn from "../../../../public/assets/icons/linkedin.svg";
 import Instagram from "../../../../public/assets/icons/instagram.png";
 import { useForm } from "react-hook-form";
 import InputField from '@/components/common/inputField';
